@@ -7,6 +7,7 @@ import android.widget.Button
 import kotlinx.android.synthetic.main.activity_main.*
 import android.content.Intent
 import android.graphics.Bitmap
+import android.media.MediaPlayer
 import android.provider.MediaStore
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
@@ -22,10 +23,12 @@ class MainActivity : AppCompatActivity() {
         val mavach = findViewById<Button>(R.id.MaVach)
         val dich = findViewById<Button>(R.id.Dich)
         val nhandien = findViewById<Button>(R.id.HinhAnh)
-
-
+        var mediaPlayer = MediaPlayer.create(applicationContext, R.raw.christmass)
+        mediaPlayer.start()
 
         clickEvents()
+
+
     }
 
     private  fun clickEvents() {
@@ -52,6 +55,8 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+
+
 
 
 

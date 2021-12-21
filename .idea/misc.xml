@@ -5,8 +5,14 @@
       <map>
         <entry key="..\:/DOANCUOIKY-PTUD/app/src/main/res/layout/activity_dich_van_ban.xml" value="0.20416666666666666" />
         <entry key="..\:/DOANCUOIKY-PTUD/app/src/main/res/layout/activity_nhan_dien_do_vat.xml" value="0.18" />
+        <entry key="..\:/PTUD/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/PTUD/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/PTUD/app/src/main/res/drawable/ic_qr_code.xml" value="0.2703125" />
+        <entry key="..\:/PTUD/app/src/main/res/drawable/image_backgound.xml" value="0.2703125" />
         <entry key="..\:/PTUD/app/src/main/res/layout/activity_dich_van_ban.xml" value="0.24010416666666667" />
+        <entry key="..\:/PTUD/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/PTUD/app/src/main/res/layout/activity_nhan_dien_do_vat.xml" value="0.25416666666666665" />
+        <entry key="..\:/PTUD/app/src/main/res/layout/activity_quet_ma_vach.xml" value="0.25416666666666665" />
         <entry key="..\:/dang hoc/DOANCUOIKY-PTUD/app/src/main/res/layout/activity_quet_ma_vach.xml" value="0.21927083333333333" />
         <entry key="..\:/dang hoc/ptud/DOANCUOIKY-PTUD/app/src/main/res/layout/activity_quet_ma_vach.xml" value="0.21927083333333333" />
       </map>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/image1"
     tools:context=".dich_van_ban"
     android:orientation="horizontal">
 
@@ -18,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="22sp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:text="hello! capture or choose an image" />
 
     </ScrollView>

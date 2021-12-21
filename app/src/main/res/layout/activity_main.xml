@@ -4,47 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/image1"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/MaVach"
         android:layout_width="220dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="92dp"
+        android:layout_height="70dp"
         android:layout_marginTop="56dp"
-        android:text="Quét mã vạch"
-
+        android:text="Quét mã"
+        app:layout_constraintBottom_toTopOf="@+id/Dich"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
 
     <Button
         android:id="@+id/Dich"
         android:layout_width="220dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="30dp"
-        android:text="Dịch văn bản"
-
+        android:layout_height="70dp"
+        android:text="Trích Xuất Văn Bản"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/MaVach" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/HinhAnh"
         android:layout_width="220dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="30dp"
-        android:text="Nhận diện hình ảnh"
+        android:layout_height="70dp"
+        android:text="Nhận diện đối tượng"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Dich" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="438dp"
-        tools:srcCompat="@tools:sample/avatars"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/Dich"
+        app:layout_constraintVertical_bias="0.117" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
