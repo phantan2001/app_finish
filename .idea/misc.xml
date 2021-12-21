@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DOANCUOIKY-PTUD/app/src/main/res/layout/activity_dich_van_ban.xml" value="0.20416666666666666" />
+        <entry key="..\:/DOANCUOIKY-PTUD/app/src/main/res/layout/activity_nhan_dien_do_vat.xml" value="0.18" />
+        <entry key="..\:/PTUD/app/src/main/res/layout/activity_dich_van_ban.xml" value="0.24010416666666667" />
+        <entry key="..\:/PTUD/app/src/main/res/layout/activity_nhan_dien_do_vat.xml" value="0.25416666666666665" />
+        <entry key="..\:/dang hoc/DOANCUOIKY-PTUD/app/src/main/res/layout/activity_quet_ma_vach.xml" value="0.21927083333333333" />
+        <entry key="..\:/dang hoc/ptud/DOANCUOIKY-PTUD/app/src/main/res/layout/activity_quet_ma_vach.xml" value="0.21927083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
