@@ -62,7 +62,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="0.5"
                 android:background="@color/light_green"
-                android:text="Enter"
+                android:text="Copy"
                 android:textColor="@color/white" />
         </LinearLayout>
 
@@ -73,7 +73,7 @@
         android:id="@+id/cardView2"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="10dp"
         app:cardElevation="10dp"

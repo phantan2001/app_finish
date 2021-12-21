@@ -13,7 +13,7 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
         <item name="colorPrimary">@color/btn</item>
-        <item name="colorPrimaryDark">@color/dark_green</item>
+        <item name="colorPrimaryDark">@color/btn</item>
         <item name="colorAccent">@color/white</item>
     </style>
     <!-- Base application theme. -->
