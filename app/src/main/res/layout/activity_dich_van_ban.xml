@@ -9,18 +9,22 @@
     android:orientation="horizontal">
 
     <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_above="@+id/linear_holder"
         android:layout_alignParentTop="true"
-        android:layout_margin="8dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp">
+
         <TextView
             android:id="@+id/text_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="22sp"
+            android:text="hello! capture or choose an image"
             android:textColor="@color/white"
-            android:text="hello! capture or choose an image" />
+            android:textSize="22sp" />
 
     </ScrollView>
 

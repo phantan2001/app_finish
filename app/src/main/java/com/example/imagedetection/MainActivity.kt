@@ -16,6 +16,7 @@ import kotlinx.android.synthetic.main.activity_quet_ma_vach.*
 
 class MainActivity : AppCompatActivity() {
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -23,11 +24,16 @@ class MainActivity : AppCompatActivity() {
         val mavach = findViewById<Button>(R.id.MaVach)
         val dich = findViewById<Button>(R.id.Dich)
         val nhandien = findViewById<Button>(R.id.HinhAnh)
-        var mediaPlayer = MediaPlayer.create(applicationContext, R.raw.christmass)
-        mediaPlayer.start()
 
+        playMusic()
         clickEvents()
 
+
+    }
+
+    private fun playMusic(){
+        var mediaPlayer = MediaPlayer.create(applicationContext, R.raw.jinglebell)
+        mediaPlayer.start()
 
     }
 
